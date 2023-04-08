@@ -147,7 +147,7 @@ protoc の準備をします。`libprotoc 3.21.12`で実施します。
 Mac の場合は Homebrew でインストールできます。
 
 ```
-brew install protoc
+brew install protobuf
 ```
 
 次に、protoc-gen-go-grpc プラグインをインストールしてください。以下のコマンドを実行してインストールできます
