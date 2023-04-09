@@ -9,10 +9,10 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 	"google.golang.org/grpc"
 
-	"github.com/redgosho/grpc-go-user-crud/application"
-	"github.com/redgosho/grpc-go-user-crud/domain"
-	"github.com/redgosho/grpc-go-user-crud/infrastructure"
-	pb "github.com/redgosho/grpc-go-user-crud/userpb"
+	"github.com/redgosho/grpc-go-user-crud/server/application"
+	"github.com/redgosho/grpc-go-user-crud/server/domain"
+	pb "github.com/redgosho/grpc-go-user-crud/server/generated/go/user/v1"
+	"github.com/redgosho/grpc-go-user-crud/server/infrastructure"
 )
 
 type server struct {

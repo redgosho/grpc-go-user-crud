@@ -1,6 +1,6 @@
 package application
 
-import "github.com/redgosho/grpc-go-user-crud/domain"
+import "github.com/redgosho/grpc-go-user-crud/server/domain"
 
 type UserService struct {
 	repo domain.UserRepository

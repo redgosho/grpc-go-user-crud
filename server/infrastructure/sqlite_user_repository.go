@@ -3,7 +3,7 @@ package infrastructure
 import (
 	"database/sql"
 
-	"github.com/redgosho/grpc-go-user-crud/domain"
+	"github.com/redgosho/grpc-go-user-crud/server/domain"
 )
 
 type SQLiteUserRepository struct {
