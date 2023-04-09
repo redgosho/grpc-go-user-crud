@@ -7,7 +7,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "github.com/redgosho/grpc-go-user-crud/userpb"
+	pb "github.com/redgosho/grpc-go-user-crud/server/generated/go/user/v1"
 )
 
 func main() {
