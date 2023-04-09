@@ -1,11 +1,11 @@
-module github.com/redgosho/grpc-go-user-crud
+module github.com/redgosho/grpc-go-user-crud/server
 
 go 1.20
 
 require (
 	github.com/mattn/go-sqlite3 v1.14.16
 	google.golang.org/grpc v1.54.0
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.30.0
 )
 
 require (

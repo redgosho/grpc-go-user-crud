@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "files": [
+    "generated/ts/user/v1/**"
+  ],
+  "dependencies": {
+    "@types/google-protobuf": "^3.15.6",
+    "google-protobuf": "^3.21.2",
+    "ts-proto": "^1.146.0",
+    "typescript": "^5.0.4"
+  }
+}
